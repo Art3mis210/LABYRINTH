@@ -88,7 +88,7 @@ public class LTransform
 
     public string GetPath()
     {
-        string trimmedPath = pathToPrefab.Replace("Assets/Resources/", "");
+        string trimmedPath = pathToPrefab.Replace("Assets/Resources/","");
         trimmedPath = trimmedPath.Replace(".prefab", "");;
         return trimmedPath;
     }
