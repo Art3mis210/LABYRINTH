@@ -18,7 +18,7 @@ public class Player : MonoBehaviour
         moveBall = Vector3.zero;
         playerCollider = GetComponent<SphereCollider>();
         playerRigidbody = GetComponent<Rigidbody>();
-        #if UNITY_STANDALONE || UNITY_EDITOR
+        #if UNITY_STANDALONE 
                 currentModule = new KeyboardInput();
         #elif UNITY_ANDROID || UNITY_IOS
                 currentModule = new MobileInput();
@@ -35,7 +35,7 @@ public class Player : MonoBehaviour
             input = currentModule.GetInput();
             moveBall.x = input.x;
             moveBall.z = input.y;
-            playerRigidbody.velocity = moveBall * speed;
+            playerRigidbody.velocity = moveBall * speed *input.magnitude;
         }
     }
     private void OnCollisionEnter(Collision collision)

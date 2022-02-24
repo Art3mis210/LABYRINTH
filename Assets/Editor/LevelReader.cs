@@ -3,7 +3,7 @@ using UnityEditor;
 using UnityEngine;
 using System.IO;
 
-public class LevelReader : MonoBehaviour
+public class LevelReader : Editor
 {
     static string path;
     [MenuItem("Window/Save Level")]
