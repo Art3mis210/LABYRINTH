@@ -3,12 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using Firebase.Auth;
 using UnityEngine.SceneManagement;
+using Firebase.Extensions;
+using UnityEngine.UI;
 
 public class FirebaseManager : MonoBehaviour
 {
     private Firebase.FirebaseApp app;
     private string email;
     private string password;
+    public Text RegisterWarning;
+    public Text LoginWarning;
+
     // Start is called before the first frame update
     void Awake()
     {
@@ -16,8 +21,6 @@ public class FirebaseManager : MonoBehaviour
             var dependencyStatus = task.Result;
             if (dependencyStatus == Firebase.DependencyStatus.Available)
             {
-                // Create and hold a reference to your FirebaseApp,
-                // where app is a Firebase.FirebaseApp property of your application class.
                 app = Firebase.FirebaseApp.DefaultInstance;
 
                 // Set a flag here to indicate whether Firebase is ready to use by your app.
@@ -78,48 +81,56 @@ public class FirebaseManager : MonoBehaviour
     public void RegisterUser()
     {
         Firebase.Auth.FirebaseAuth auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
-        auth.CreateUserWithEmailAndPasswordAsync(email, password).ContinueWith(task => {
+        var Register=auth.CreateUserWithEmailAndPasswordAsync(email, password).ContinueWithOnMainThread(task =>
+        {
+            /*   if (AuthError.MissingPassword.CompareTo(password)
+               {
+                   RegisterWarning.text = "Invalid Email";
+                   RegisterWarning.transform.gameObject.SetActive(true);
+               }*/
+
             if (task.IsCanceled)
             {
                 Debug.LogError("CreateUserWithEmailAndPasswordAsync was canceled.");
+                RegisterWarning.text = task.Exception.GetBaseException().Message;
                 return;
             }
             if (task.IsFaulted)
             {
                 Debug.LogError("CreateUserWithEmailAndPasswordAsync encountered an error: " + task.Exception);
+                RegisterWarning.text = task.Exception.GetBaseException().Message;
                 return;
             }
-
             // Firebase user has been created.
+            RegisterWarning.text = "";
             Firebase.Auth.FirebaseUser newUser = task.Result;
-            SceneManager.LoadScene("MainScene");
             Debug.LogFormat("Firebase user created successfully: {0} ({1})",
-                newUser.DisplayName, newUser.UserId);
-            
-
+            newUser.DisplayName, newUser.UserId);
+            SceneManager.LoadScene("MainScene");
         });
         
     }
     public void LoginUser()
     {
         Firebase.Auth.FirebaseAuth auth = Firebase.Auth.FirebaseAuth.DefaultInstance;
-        auth.SignInWithEmailAndPasswordAsync(email, password).ContinueWith(task => {
+        auth.SignInWithEmailAndPasswordAsync(email, password).ContinueWithOnMainThread(task => {
             if (task.IsCanceled)
             {
                 Debug.LogError("SignInWithEmailAndPasswordAsync was canceled.");
+                LoginWarning.text = task.Exception.GetBaseException().Message;
                 return;
             }
             if (task.IsFaulted)
             {
                 Debug.LogError("SignInWithEmailAndPasswordAsync encountered an error: " + task.Exception);
+                LoginWarning.text = task.Exception.GetBaseException().Message;
                 return;
             }
-
+            LoginWarning.text = "";
             Firebase.Auth.FirebaseUser newUser = task.Result;
-            SceneManager.LoadScene("MainScene");
             Debug.LogFormat("User signed in successfully: {0} ({1})",
                 newUser.DisplayName, newUser.UserId);
-            
+            SceneManager.LoadScene("MainScene");
 
         });
     }

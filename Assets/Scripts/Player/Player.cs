@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Player : MonoBehaviour
 {
@@ -40,10 +41,6 @@ public class Player : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag=="Obstacle" && vibrationEnabled==true)
-        {
-            Handheld.Vibrate();
-        }
         if (collision.gameObject.tag == "Ground" && !fallenInHole)
             isGrounded = true;
     }
@@ -72,7 +69,14 @@ public class Player : MonoBehaviour
             transform.position = Vector3.Lerp(transform.position, Pos,t/Duration);
             yield return null;
             t += Time.deltaTime;
+            if(vibrationEnabled)
+                Handheld.Vibrate();
         }
+        Invoke("ReloadScene", 2f);
+    }
+    void ReloadScene()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
 
 }

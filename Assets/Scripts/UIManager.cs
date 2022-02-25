@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
+    private void Start()
+    {
+        Screen.SetResolution(Screen.width, Screen.height,true);
+    }
     public void TurnGameObjectOff(GameObject gameObject)
     {
         gameObject.SetActive(false);
