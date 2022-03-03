@@ -65,7 +65,7 @@ public class Player : MonoBehaviour
             playerCollider.isTrigger = true;
             fallenInHole = true;
             isGrounded = false;
-            StartCoroutine(MoveTOPortal(other.gameObject.GetComponentInParent<Portal>(),new Vector3(other.transform.position.x, other.transform.position.y - 5, other.transform.position.z), 1f));
+            StartCoroutine(MoveTOPortal(other.gameObject.GetComponentInParent<Portal>(),new Vector3(other.transform.position.x, other.transform.position.y - 10, other.transform.position.z), 1f));
         }
     }
     IEnumerator MoveTOHole(Vector3 Pos,float Duration)
@@ -83,6 +83,7 @@ public class Player : MonoBehaviour
     }
     IEnumerator MoveTOPortal(Portal portal,Vector3 Pos, float Duration)
     {
+        portal.PortalParticleEffect.Play();
         float t = 0;
         while (t < Duration)
         {
@@ -92,6 +93,7 @@ public class Player : MonoBehaviour
         }
         if (vibrationEnabled)
             Handheld.Vibrate();
+        
         transform.position = portal.PortalCamera.transform.position;
         playerRigidbody.isKinematic = false;
         playerCollider.isTrigger = false;

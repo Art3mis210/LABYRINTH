@@ -9,6 +9,7 @@ public class Portal : MonoBehaviour
     public MeshRenderer PortalMesh;
     public Material PortalMaterial;
     private SpriteRenderer PortalSprite;
+    public ParticleSystem PortalParticleEffect;
     void Start()
     {
         PortalCamera = transform.GetComponentInChildren<Camera>();
@@ -19,6 +20,7 @@ public class Portal : MonoBehaviour
         PortalMaterial.SetTexture(Shader.PropertyToID("_MainTex"), PortalTexture);
         PortalMesh.material = PortalMaterial;
         PortalSprite = transform.GetComponentInChildren<SpriteRenderer>();
+        PortalParticleEffect = transform.GetComponentInChildren<ParticleSystem>();
     }
     void Update()
     {
