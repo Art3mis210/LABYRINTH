@@ -19,7 +19,7 @@ public class Player : MonoBehaviour
         moveBall = Vector3.zero;
         playerCollider = GetComponent<SphereCollider>();
         playerRigidbody = GetComponent<Rigidbody>();
-        #if UNITY_STANDALONE 
+        #if UNITY_STANDALONE || UNITY_EDITOR
                 currentModule = new KeyboardInput();
         #elif UNITY_ANDROID || UNITY_IOS
                 currentModule = new MobileInput();
@@ -58,7 +58,14 @@ public class Player : MonoBehaviour
             fallenInHole = true;
             isGrounded = false;
             StartCoroutine(MoveTOHole(new Vector3(other.transform.position.x, other.transform.position.y-5, other.transform.position.z), 2f));
-            
+        }
+        if(other.gameObject.tag=="Portal" && !fallenInHole)
+        {
+            playerRigidbody.isKinematic = true;
+            playerCollider.isTrigger = true;
+            fallenInHole = true;
+            isGrounded = false;
+            StartCoroutine(MoveTOPortal(other.gameObject.GetComponentInParent<Portal>(),new Vector3(other.transform.position.x, other.transform.position.y - 5, other.transform.position.z), 1f));
         }
     }
     IEnumerator MoveTOHole(Vector3 Pos,float Duration)
@@ -73,6 +80,23 @@ public class Player : MonoBehaviour
                 Handheld.Vibrate();
         }
         Invoke("ReloadScene", 2f);
+    }
+    IEnumerator MoveTOPortal(Portal portal,Vector3 Pos, float Duration)
+    {
+        float t = 0;
+        while (t < Duration)
+        {
+            transform.position = Vector3.Lerp(transform.position, Pos , t / Duration);
+            yield return null;
+            t += Time.deltaTime;
+        }
+        if (vibrationEnabled)
+            Handheld.Vibrate();
+        transform.position = portal.PortalCamera.transform.position;
+        playerRigidbody.isKinematic = false;
+        playerCollider.isTrigger = false;
+        fallenInHole = false;
+        isGrounded = false;
     }
     void ReloadScene()
     {
