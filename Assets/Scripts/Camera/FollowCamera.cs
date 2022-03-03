@@ -8,14 +8,17 @@ public class FollowCamera : MonoBehaviour
     Vector3 camPos;
     void Start()
     {
-        camPos = new Vector3(player.position.x, transform.position.y, player.position.z);
+        camPos = transform.position;
+
     }
 
     // Update is called once per frame
     void Update()
     {
-        camPos.x = player.position.x;
-        camPos.z = player.position.z;
+        camPos.z = player.position.z - 60;
         transform.position = camPos;
+        /*camPos.x = player.position.x;
+        camPos.z = player.position.z;
+        transform.position = camPos;*/
     }
 }
