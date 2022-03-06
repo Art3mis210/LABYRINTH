@@ -36,10 +36,10 @@ public class Player : MonoBehaviour
             input = currentModule.GetInput();
             moveBall.x = input.x;
             moveBall.z = input.y;
-            playerRigidbody.velocity = moveBall * speed *input.magnitude;
+            playerRigidbody.velocity = moveBall * speed * input.magnitude;
         }
     }
-    private void OnCollisionEnter(Collision collision)
+    private void OnCollisionStay(Collision collision)
     {
         if (collision.gameObject.tag == "Ground" && !fallenInHole)
             isGrounded = true;
