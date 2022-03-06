@@ -104,5 +104,10 @@ public class Player : MonoBehaviour
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
     }
+    public void OnTriggerEnter(Collider other)
+    {
+        if (other.gameObject.tag == "Bullet")
+            Destroy(gameObject);
+    }
 
 }
