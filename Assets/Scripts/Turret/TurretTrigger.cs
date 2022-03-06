@@ -13,12 +13,13 @@ public class TurretTrigger : MonoBehaviour
     }
     private void OnTriggerStay(Collider other)
     {
-        if (other.gameObject.tag == "Player" && !turret.Bullet.activeInHierarchy)
+        if (other.gameObject.tag == "Player")
         {
             LookAtPlayer.x = other.transform.position.x;
             LookAtPlayer.z = other.transform.position.z;
             turret.transform.LookAt(LookAtPlayer);
-            turret.SpawnBullet = true;
+            if(!turret.Bullet.activeInHierarchy)
+                turret.SpawnBullet = true;
         }
     }
 }

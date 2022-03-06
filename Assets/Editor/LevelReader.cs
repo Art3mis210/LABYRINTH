@@ -9,25 +9,32 @@ public class LevelReader : Editor
     [MenuItem("Window/Save Level")]
     public static void SaveLevel()
     {
+        
         //Accessing the Level.
         //Level is a child of Level Parent with tag "Level"
+        
         GameObject levelParent = GameObject.FindGameObjectWithTag("Level");
-        //Recording all transformation under level parent
-        Transform firstChild = levelParent.transform.GetChild(0);
-        Level levelToSave = new Level();
-        levelToSave.parentTransform = new LTransform(firstChild);
-        levelToSave.children = new LTransform[firstChild.childCount];
-        for (int i = 0; i < levelToSave.children.Length; i++)
+        LevelList levelList = new LevelList();
+        levelList.levels = new Level[levelParent.transform.childCount];
+        for (int j = 0; j < levelParent.transform.childCount; j++)
         {
-            levelToSave.children[i] = new LTransform(firstChild.GetChild(i));
+            //Recording all transformation under level parent
+            Transform firstChild = levelParent.transform.GetChild(j);
+            Level levelToSave = new Level();
+            levelToSave.parentTransform = new LTransform(firstChild);
+            levelToSave.children = new LTransform[firstChild.childCount];
+            for (int i = 0; i < levelToSave.children.Length; i++)
+            {
+                levelToSave.children[i] = new LTransform(firstChild.GetChild(i));
+            }
+            Debug.Log("level " + JsonUtility.ToJson(levelToSave));
+            levelList.levels[j] = levelToSave;
         }
-        Debug.Log("level " + JsonUtility.ToJson(levelToSave));
-
         Debug.Log(Application.streamingAssetsPath);
         path = Application.streamingAssetsPath + "/level.txt";
         if (!File.Exists(path))
             File.Create(path);
-        File.WriteAllText(path, JsonUtility.ToJson(levelToSave));
+        File.WriteAllText(path, JsonUtility.ToJson(levelList));
     }
     [MenuItem("Window/Load Level")]
     public static void LoadLevel()
@@ -35,7 +42,10 @@ public class LevelReader : Editor
         path = Application.streamingAssetsPath + "/level.txt";
         string data = File.ReadAllText(path);
         Debug.Log("Level " + data);
-        Level level = JsonUtility.FromJson<Level>(data);
+        LevelList levelList = JsonUtility.FromJson<LevelList>(data);
+        int levelId=PlayerPrefs.GetInt("CurrentLevelID", 0);
+        Level level = levelList.levels[levelId];
+        //Level level = JsonUtility.FromJson<Level>(data);
         GameObject levelParent = GameObject.FindGameObjectWithTag("Level");
         Debug.Log(level.parentTransform.GetPath());
         //GameObject ground = Instantiate(Resources.Load(level.parentTransform.GetPath()), levelParent.transform) as GameObject;
@@ -55,6 +65,11 @@ public class LevelReader : Editor
         //GameObject firstChild = GameObject.CreatePrimitive(PrimitiveType.Plane);
         //level.parentTransform.SetTransform(firstChild.transform);
     }
+}
+[System.Serializable]
+public class LevelList
+{
+    public Level[] levels;
 }
 [System.Serializable]
 public class Level

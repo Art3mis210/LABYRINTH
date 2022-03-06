@@ -16,6 +16,7 @@ public class Turret : MonoBehaviour
             SpawnBullet = false;
             Bullet.transform.position = Muzzle.transform.position;
             Bullet.transform.rotation = Quaternion.Euler(Muzzle.transform.rotation.eulerAngles.x, Muzzle.transform.rotation.eulerAngles.y, Muzzle.transform.rotation.eulerAngles.z);
+            Bullet.transform.parent = null;
             Bullet.SetActive(true);
         }
         if(Bullet.activeInHierarchy)
@@ -24,6 +25,7 @@ public class Turret : MonoBehaviour
             if(BulletTime>=BulletResetTime)
             {
                 Bullet.SetActive(false);
+                Bullet.transform.parent = transform;
                 BulletTime = 0;
             }
         }
