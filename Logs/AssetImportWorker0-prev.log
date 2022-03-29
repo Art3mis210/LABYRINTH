@@ -1,0 +1,1786 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.19f1 (68f137dc9bbe) revision 6877495'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Home Single Language; OS build 19044.1586; Version 2009; 64bit' Language: 'en' Physical Memory: 16267 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+D:\Softwares\Unity\2020.3.19f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+D:/Softwares/Unity/LABYRINTH
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+1801
+Successfully changed project path to: D:/Softwares/Unity/LABYRINTH
+D:/Softwares/Unity/LABYRINTH
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 78.35 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
+[Subsystems] Discovering subsystems at path D:/Softwares/Unity/2020.3.19f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Softwares/Unity/LABYRINTH/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1050 Ti (ID=0x1c8c)
+    Vendor:   
+    VRAM:     4018 MB
+    Driver:   30.0.15.1179
+Initialize mono
+Mono path[0] = 'D:/Softwares/Unity/2020.3.19f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Softwares/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Softwares/Unity/2020.3.19f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56548
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Softwares/Unity/2020.3.19f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001831 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 50.80 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.549 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3549ms)
+		BeginReloadAssembly (102ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (608ms)
+			LoadAssemblies (101ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (227ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (227ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (51ms)
+				BeforeProcessingInitializeOnLoad (24ms)
+				ProcessInitializeOnLoadAttributes (108ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.016678 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.20 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.512 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1513ms)
+		BeginReloadAssembly (225ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (1208ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (392ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (61ms)
+			SetupLoadedEditorAssemblies (470ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (102ms)
+				ProcessInitializeOnLoadAttributes (348ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.17 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1512 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.3 MB.
+System memory in use after: 78.4 MB.
+
+Unloading 100 unused Assets to reduce memory usage. Loaded Objects now: 1894.
+Total: 3.698800 ms (FindLiveObjects: 0.181900 ms CreateObjectMapping: 0.080200 ms MarkObjects: 3.364100 ms  DeleteObjects: 0.071500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Imported Assets
+  artifactKey: Guid(b4503da59a3546049888ba18d167642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Imported Assets using Guid(b4503da59a3546049888ba18d167642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec2f285385e7e60990d18adbda9e6466') in 0.009946 seconds 
+  Import took 0.013339 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016047 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.24 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.623 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1624ms)
+		BeginReloadAssembly (196ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (43ms)
+		EndReloadAssembly (1342ms)
+			LoadAssemblies (173ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (395ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (63ms)
+			SetupLoadedEditorAssemblies (595ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (479ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.24 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 78.9 MB.
+System memory in use after: 79.0 MB.
+
+Unloading 152 unused Assets to reduce memory usage. Loaded Objects now: 1896.
+Total: 4.142000 ms (FindLiveObjects: 0.221400 ms CreateObjectMapping: 0.117700 ms MarkObjects: 3.718000 ms  DeleteObjects: 0.083600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.018688 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.22 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.508 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2508ms)
+		BeginReloadAssembly (162ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (44ms)
+		EndReloadAssembly (2267ms)
+			LoadAssemblies (158ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (381ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (1545ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (1434ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.1 MB.
+
+Unloading 152 unused Assets to reduce memory usage. Loaded Objects now: 1898.
+Total: 4.574700 ms (FindLiveObjects: 0.218100 ms CreateObjectMapping: 0.084900 ms MarkObjects: 4.189800 ms  DeleteObjects: 0.079800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 365.539963 seconds.
+  path: Assets/Editor Default Resources
+  artifactKey: Guid(b20a50a6e40d4ca43a29c88f3159f301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Editor Default Resources using Guid(b20a50a6e40d4ca43a29c88f3159f301) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652213e6d674747559d148ca488b5428') in 0.013274 seconds 
+  Import took 0.017038 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.045797 seconds.
+  path: Assets/ExternalDependencyManager
+  artifactKey: Guid(1dbcbdc02e499664f9f335c2c32c6cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/ExternalDependencyManager using Guid(1dbcbdc02e499664f9f335c2c32c6cfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c80f5f4b607d6c754c026ebf1cbf81') in 0.010549 seconds 
+  Import took 0.014597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.521994 seconds.
+  path: Assets/Firebase
+  artifactKey: Guid(aad937117d86436479b48848a35cefac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Firebase using Guid(aad937117d86436479b48848a35cefac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e616d8e1500f1cda446421091e693df4') in 0.034875 seconds 
+  Import took 0.037986 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.383639 seconds.
+  path: Assets/Font
+  artifactKey: Guid(066469d4284b85d438c4fabd218c4cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Font using Guid(066469d4284b85d438c4fabd218c4cfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16d1152b7cd7c754cca81eae90d507a') in 0.010595 seconds 
+  Import took 0.014356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 18.955911 seconds.
+  path: Assets/Parse
+  artifactKey: Guid(685e61804bdb0004988e3b7dc3128ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse using Guid(685e61804bdb0004988e3b7dc3128ad3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c40394c50ddcb011deb1da770a03737') in 0.008421 seconds 
+  Import took 0.012072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.030440 seconds.
+  path: Assets/Parse/Plugins
+  artifactKey: Guid(d87bbf81e3abc4e4f9588d5b4853583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse/Plugins using Guid(d87bbf81e3abc4e4f9588d5b4853583f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acde6aa3b36432ae7882ee11efbc809') in 0.031668 seconds 
+  Import took 0.034861 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.794645 seconds.
+  path: Assets/Parse/Plugins/dotNet45
+  artifactKey: Guid(141013d4f386f8f41a64923faf9fedd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Parse/Plugins/dotNet45 using Guid(141013d4f386f8f41a64923faf9fedd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f6930e68811c117e688de9cbefd2bed') in 0.007096 seconds 
+  Import took 0.010417 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 241.082466 seconds.
+  path: Assets/SCIFI Assets
+  artifactKey: Guid(b4503da59a3546049888ba18d167642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/SCIFI Assets using Guid(b4503da59a3546049888ba18d167642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46dfc397d4d0b830c9c914f738a84d12') in 0.007778 seconds 
+  Import took 0.012294 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.017137 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.44 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.687 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1688ms)
+		BeginReloadAssembly (192ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (52ms)
+		EndReloadAssembly (1401ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (402ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (54ms)
+			SetupLoadedEditorAssemblies (607ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (8ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (94ms)
+				ProcessInitializeOnLoadAttributes (493ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.46 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.1 MB.
+
+Unloading 152 unused Assets to reduce memory usage. Loaded Objects now: 1900.
+Total: 4.059300 ms (FindLiveObjects: 0.209200 ms CreateObjectMapping: 0.075500 ms MarkObjects: 3.690600 ms  DeleteObjects: 0.082600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 21.745299 seconds.
+  path: Assets/Scifi Assets
+  artifactKey: Guid(b4503da59a3546049888ba18d167642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets using Guid(b4503da59a3546049888ba18d167642a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fb23aeac048d354cb10a4e4866d9da') in 0.013550 seconds 
+  Import took 0.018259 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016265 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 3.19 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.654 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1655ms)
+		BeginReloadAssembly (172ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (7ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1393ms)
+			LoadAssemblies (177ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (390ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (612ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (3ms)
+				BeforeProcessingInitializeOnLoad (118ms)
+				ProcessInitializeOnLoadAttributes (470ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (14ms)
+Platform modules already initialized, skipping
+Switching build target platform(19) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.26 ms, found 5 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1559 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 79.0 MB.
+System memory in use after: 79.1 MB.
+
+Unloading 152 unused Assets to reduce memory usage. Loaded Objects now: 1902.
+Total: 4.391200 ms (FindLiveObjects: 0.220900 ms CreateObjectMapping: 0.076400 ms MarkObjects: 4.004600 ms  DeleteObjects: 0.088100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1310.986546 seconds.
+  path: Assets/Scifi Assets/SF_Fighter/SF_FighterSettings.lighting
+  artifactKey: Guid(59d3055dc9a10db4199c7ceeb41a64b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/SF_Fighter/SF_FighterSettings.lighting using Guid(59d3055dc9a10db4199c7ceeb41a64b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f3f3e717cd1ccc683602da2fe0a26a13') in 0.059854 seconds 
+  Import took 0.064145 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107025 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_36_Diffuse.tga
+  artifactKey: Guid(048117a1d65d06446b690db21b8598e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_36_Diffuse.tga using Guid(048117a1d65d06446b690db21b8598e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98a54eab6a17ca535a17858a8307204e') in 0.109296 seconds 
+  Import took 0.125781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047776 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_42_Specular.tga
+  artifactKey: Guid(b75eeacb25d0bf147b73f6f7d50387a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_42_Specular.tga using Guid(b75eeacb25d0bf147b73f6f7d50387a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5494e8f7b1e1e0e3aae91d646d5b944e') in 0.033213 seconds 
+  Import took 0.036338 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107190 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_16_Diffuse.tga
+  artifactKey: Guid(1730b9de01b2d4542b503f797a18edc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_16_Diffuse.tga using Guid(1730b9de01b2d4542b503f797a18edc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd88f686aaf175422ecc7c1badcd503ba') in 0.032434 seconds 
+  Import took 0.035864 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.245592 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_20_Diffuse.tga
+  artifactKey: Guid(87c733e12f51e524d919526b301155bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_20_Diffuse.tga using Guid(87c733e12f51e524d919526b301155bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89337f01db81f8bc6a47e569bc0ca266') in 0.028216 seconds 
+  Import took 0.031318 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.093862 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_34_Diffuse.tga
+  artifactKey: Guid(48767341f44caab40ac1a920878bb23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_34_Diffuse.tga using Guid(48767341f44caab40ac1a920878bb23c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5653923f2f6e7dc8a3778395e268e92') in 0.029034 seconds 
+  Import took 0.032165 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147520 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_38_Specular.tga
+  artifactKey: Guid(31da0e9d4e721be4ca16edb93d39a93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_38_Specular.tga using Guid(31da0e9d4e721be4ca16edb93d39a93d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '403a972e8299e4e538f0bab56130f63e') in 0.030942 seconds 
+  Import took 0.034064 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040049 seconds.
+  path: Assets/Scifi Assets/SF_Fighter/Meshes/Materials/SciFi_Fighters-Fleet.mat
+  artifactKey: Guid(eaa762a03a4b5c8418e459439181a274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/SF_Fighter/Meshes/Materials/SciFi_Fighters-Fleet.mat using Guid(eaa762a03a4b5c8418e459439181a274) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '499633369bca78f3027b41f2be0f3b15') in 0.835817 seconds 
+  Import took 0.839187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.201894 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_24_Diffuse.tga
+  artifactKey: Guid(4bdf8705c42ae7540afc582420d73843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_24_Diffuse.tga using Guid(4bdf8705c42ae7540afc582420d73843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7de1c3f542f35c6d5b2bcd6d3710ab78') in 0.061992 seconds 
+  Import took 0.065487 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008946 seconds.
+  path: Assets/Scifi Assets/DL_Fantasy_RPG_Effects/texture/star01.png
+  artifactKey: Guid(477b6c425d0e16946a1743050289000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/DL_Fantasy_RPG_Effects/texture/star01.png using Guid(477b6c425d0e16946a1743050289000e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a9767af215d17b55e7aa57566f6373') in 0.071371 seconds 
+  Import took 0.074803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013828 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/_SingleLineShader.cginc
+  artifactKey: Guid(d82cce7e69a2c454d931304b0ae4829a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/_SingleLineShader.cginc using Guid(d82cce7e69a2c454d931304b0ae4829a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '63361d842309f4131100f8ab210ac147') in 0.008795 seconds 
+  Import took 0.011967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072856 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_21_Specular.tga
+  artifactKey: Guid(c979550daad02764d983ba90e592ad9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_21_Specular.tga using Guid(c979550daad02764d983ba90e592ad9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1440233a1e6eefb61c643e6fff5776d3') in 0.029113 seconds 
+  Import took 0.032451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009018 seconds.
+  path: Assets/Scifi Assets/Free LowPoly SciFi Pack/Turret/turret.obj
+  artifactKey: Guid(36f93d0ea92941d45ba8e551b7a27f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Free LowPoly SciFi Pack/Turret/turret.obj using Guid(36f93d0ea92941d45ba8e551b7a27f2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a860eeb82b1bbefc6276e9860a7d8014') in 0.361172 seconds 
+  Import took 0.366815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043294 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_37_Normal.tga
+  artifactKey: Guid(99b90d66a3c01c149a95efb7fa1070ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_37_Normal.tga using Guid(99b90d66a3c01c149a95efb7fa1070ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e69f246f8b8787d9c901090927ed478d') in 0.030313 seconds 
+  Import took 0.033564 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011754 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_50_Specular.tga
+  artifactKey: Guid(d702ca62fd313ed4da224fbda008871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_50_Specular.tga using Guid(d702ca62fd313ed4da224fbda008871a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe07b375983bad6fd0680cc5632d434') in 0.029069 seconds 
+  Import took 0.032363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.065570 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_28_Normal.tga
+  artifactKey: Guid(295f3d524574d1c46b83457cc0c64f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_28_Normal.tga using Guid(295f3d524574d1c46b83457cc0c64f78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a78ccbc4f4b72809bfa355efb61c2715') in 0.028456 seconds 
+  Import took 0.031682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009328 seconds.
+  path: Assets/Scifi Assets/DL_Fantasy_RPG_Effects/texture/DL_star.png
+  artifactKey: Guid(55369f12be1b6ea45a7420b3808aefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/DL_Fantasy_RPG_Effects/texture/DL_star.png using Guid(55369f12be1b6ea45a7420b3808aefee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7222e0dfd7c428a807e18549b6e4eaa') in 0.030384 seconds 
+  Import took 0.033630 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.163952 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/Scripts
+  artifactKey: Guid(efda95c08f4370f45ac08e2ee6544043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/Scripts using Guid(efda95c08f4370f45ac08e2ee6544043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a219113efc9ee607884d3393387fea2') in 0.007046 seconds 
+  Import took 0.010355 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008747 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/LaserCannonSettings.lighting
+  artifactKey: Guid(b4c54952d71a8774688a022e5f3cfed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/LaserCannonSettings.lighting using Guid(b4c54952d71a8774688a022e5f3cfed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '0ef173a99ebfb1ab19aec6ac59fe54d6') in 0.007653 seconds 
+  Import took 0.010965 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.483088 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_15_Normal.tga
+  artifactKey: Guid(b22c6961048b78945bc62e97743a5f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_15_Normal.tga using Guid(b22c6961048b78945bc62e97743a5f70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60382ffca12c0fb387f3baec29786fbd') in 0.033877 seconds 
+  Import took 0.037184 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012169 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_29_Normal.tga
+  artifactKey: Guid(b0a7501717f3514478fad8bb7bae311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_29_Normal.tga using Guid(b0a7501717f3514478fad8bb7bae311c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'baeaa985c3e82adc306c9f0142fbf4c4') in 0.027435 seconds 
+  Import took 0.030646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009974 seconds.
+  path: Assets/Scifi Assets/DL_Fantasy_RPG_Effects/scene.unity
+  artifactKey: Guid(53164a5977acfba49b61ce42d924e37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/DL_Fantasy_RPG_Effects/scene.unity using Guid(53164a5977acfba49b61ce42d924e37d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e6de2cb343dcd135b6955d3b2b174ae') in 0.006880 seconds 
+  Import took 0.010060 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.067560 seconds.
+  path: Assets/Scifi Assets/Free LowPoly SciFi Pack/Turret/turret.mtl
+  artifactKey: Guid(77f7cbdab9c21bc49a126b13e7db6448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Free LowPoly SciFi Pack/Turret/turret.mtl using Guid(77f7cbdab9c21bc49a126b13e7db6448) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e78cfef063e59af5ee8f4dbdf94d96b1') in 0.034759 seconds 
+  Import took 0.037967 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010861 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_19_Diffuse.tga
+  artifactKey: Guid(ef882f7a63423bf4896b9f58e236acf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_19_Diffuse.tga using Guid(ef882f7a63423bf4896b9f58e236acf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e45192c93d8ed48be0e55fce18093d2c') in 0.031595 seconds 
+  Import took 0.035277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011033 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_17_Specular.tga
+  artifactKey: Guid(d1b497fcc74016c4fa7a75ade1959045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_17_Specular.tga using Guid(d1b497fcc74016c4fa7a75ade1959045) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c211fe98cb129be967e98794e7c58a20') in 0.028971 seconds 
+  Import took 0.032429 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011893 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_35_Diffuse.tga
+  artifactKey: Guid(7c1d65d497687d64c9db74501b19ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_35_Diffuse.tga using Guid(7c1d65d497687d64c9db74501b19ccf8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963524ff9e6b5db4ba7414b7fb4278e5') in 0.032580 seconds 
+  Import took 0.035847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011327 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_39_Specular.tga
+  artifactKey: Guid(f2a8ab14dca00204884e746b5744858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_39_Specular.tga using Guid(f2a8ab14dca00204884e746b5744858a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29934d66af7cfd2807a0cc48e09eb3bf') in 0.032387 seconds 
+  Import took 0.035705 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008874 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/ShotBehavior.cs
+  artifactKey: Guid(5cb039d3a64491f4ebfc852d25b5ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/ShotBehavior.cs using Guid(5cb039d3a64491f4ebfc852d25b5ee70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9286aeec7d55d52ae65a7820fc8108b') in 0.102235 seconds 
+  Import took 0.105369 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008867 seconds.
+  path: Assets/Scifi Assets/ClassicSpace/Classic Space Skybox Readme.txt
+  artifactKey: Guid(c3875b44c265a98439e972b0f37504cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/ClassicSpace/Classic Space Skybox Readme.txt using Guid(c3875b44c265a98439e972b0f37504cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f28392cf633dc999a98e47ad155737f') in 0.010037 seconds 
+  Import took 0.026045 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.135978 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-LightSaber.shader
+  artifactKey: Guid(2d9a4ca4b2730b64e8aade7030f8caeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-LightSaber.shader using Guid(2d9a4ca4b2730b64e8aade7030f8caeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f4220080325fbf1eb264a7561450bfd') in 0.032758 seconds 
+  Import took 0.036006 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010393 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_31_Diffuse.tga
+  artifactKey: Guid(45327f0d326c97f4f884bf345d710f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_31_Diffuse.tga using Guid(45327f0d326c97f4f884bf345d710f7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e16e6e633862d4c1d19831954f6b0298') in 0.029373 seconds 
+  Import took 0.032563 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010962 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_14_Specular.tga
+  artifactKey: Guid(035c1683361e0bd48b03f41544efc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_14_Specular.tga using Guid(035c1683361e0bd48b03f41544efc189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2209e504c8d9c53fb89ac045eec88e26') in 0.028846 seconds 
+  Import took 0.032093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011901 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_21_Diffuse.tga
+  artifactKey: Guid(65c44c9418dce2e4e966f8fb196d64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_21_Diffuse.tga using Guid(65c44c9418dce2e4e966f8fb196d64db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7474b6a901c56598fac7da773da1c038') in 0.027594 seconds 
+  Import took 0.030825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.079454 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_46_Specular.tga
+  artifactKey: Guid(8bc770dd8bed136429f69e2a33a1586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_46_Specular.tga using Guid(8bc770dd8bed136429f69e2a33a1586b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '530d2bf8f47084404f087ff83cbf217d') in 0.029364 seconds 
+  Import took 0.032585 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051295 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_42_Normal.tga
+  artifactKey: Guid(493af587c9e82b147946bdb27bfaaafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_42_Normal.tga using Guid(493af587c9e82b147946bdb27bfaaafd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '819d95234468e8620626566fb314cdbd') in 0.030655 seconds 
+  Import took 0.033855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010206 seconds.
+  path: Assets/Scifi Assets/ClassicSpace/Textures
+  artifactKey: Guid(1aed18fc095831948bbd77cfc9326e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/ClassicSpace/Textures using Guid(1aed18fc095831948bbd77cfc9326e1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e047c44ccf43d95624a123dea38819a') in 0.009749 seconds 
+  Import took 0.012914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.140128 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/M_YFMM_48.mat
+  artifactKey: Guid(a7a35a310f4bf234099e346d4c063b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/M_YFMM_48.mat using Guid(a7a35a310f4bf234099e346d4c063b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2950a159b99ff454cba07ea978ba52e') in 0.068616 seconds 
+  Import took 0.072132 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.057022 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_30_Normal.tga
+  artifactKey: Guid(4d8c6a56a528ca742b355ee5b85e7514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_30_Normal.tga using Guid(4d8c6a56a528ca742b355ee5b85e7514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d307a51dd58a7d8512568ae5b0a471d') in 0.028128 seconds 
+  Import took 0.031393 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009182 seconds.
+  path: Assets/Scifi Assets/DL_Fantasy_RPG_Effects/document.pdf
+  artifactKey: Guid(71ec4f65cab8a4f47b66e1689a88bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/DL_Fantasy_RPG_Effects/document.pdf using Guid(71ec4f65cab8a4f47b66e1689a88bea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ba804a9802b8b3ad8fe3077e90c4cc') in 0.012246 seconds 
+  Import took 0.015499 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.086022 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTextures/gui.png
+  artifactKey: Guid(9d8463b3c89aa844289e2b169c96d827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTextures/gui.png using Guid(9d8463b3c89aa844289e2b169c96d827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9007915f6c8df32d4a68bc0bb243422') in 0.014951 seconds 
+  Import took 0.018207 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.059531 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_40_Specular.tga
+  artifactKey: Guid(ee3155f5d3a484044953d855fd5f0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_40_Specular.tga using Guid(ee3155f5d3a484044953d855fd5f0843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554828298bdf427c021f52e692a3a466') in 0.033916 seconds 
+  Import took 0.037194 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011644 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_39_Diffuse.tga
+  artifactKey: Guid(858edb10117ddc24a805151cb8bb53ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_39_Diffuse.tga using Guid(858edb10117ddc24a805151cb8bb53ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '045009e21969a3f50e9943347d15a99b') in 0.029387 seconds 
+  Import took 0.032603 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.041691 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_27_Specular.tga
+  artifactKey: Guid(a9003f14ef2a8bd47abbe5c8d364d562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_27_Specular.tga using Guid(a9003f14ef2a8bd47abbe5c8d364d562) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1be4d4cfb7f349e236be9ec7afaa3eb') in 0.028679 seconds 
+  Import took 0.031904 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010606 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_43_Normal.tga
+  artifactKey: Guid(4255026a0849e4148af09618fd875c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_43_Normal.tga using Guid(4255026a0849e4148af09618fd875c00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c35619a25a712010e1989859345c1986') in 0.029569 seconds 
+  Import took 0.033146 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010764 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_43_Diffuse.tga
+  artifactKey: Guid(61bdf41cb49a71748920f36a147e455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_43_Diffuse.tga using Guid(61bdf41cb49a71748920f36a147e455f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e842474023bd296d37cd507b81e04ce') in 0.029325 seconds 
+  Import took 0.032856 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018558 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_28_Diffuse.tga
+  artifactKey: Guid(9b6cbf8847f1b8643a4e8b05122ce9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_28_Diffuse.tga using Guid(9b6cbf8847f1b8643a4e8b05122ce9aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '262e342b6050bc589150a9f09a5007b3') in 0.027238 seconds 
+  Import took 0.030438 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.019843 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_49_Diffuse.tga
+  artifactKey: Guid(6809d5b885a2c084c8f85c4afbf126c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_49_Diffuse.tga using Guid(6809d5b885a2c084c8f85c4afbf126c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a389b19f7af7b9d08dc600414d69fb22') in 0.027482 seconds 
+  Import took 0.030917 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.105539 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_45_Diffuse.tga
+  artifactKey: Guid(5ace3a704151e184d97d59ad71f393fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_45_Diffuse.tga using Guid(5ace3a704151e184d97d59ad71f393fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9184ca284ddab5442eb7903f4dbbc99') in 0.031129 seconds 
+  Import took 0.034442 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008990 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleMaterials/shot_mat.mat
+  artifactKey: Guid(f68f8c3a3d76fb74cbb880d372c81620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleMaterials/shot_mat.mat using Guid(f68f8c3a3d76fb74cbb880d372c81620) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a239df48a6309a619abc3a86e3e83bc0') in 0.015386 seconds 
+  Import took 0.018728 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.056276 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_13_Specular.tga
+  artifactKey: Guid(88ea2467daa61a54baba97ff1f4b2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_13_Specular.tga using Guid(88ea2467daa61a54baba97ff1f4b2625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667731fd54ce742901d4077bcac9cc29') in 0.030302 seconds 
+  Import took 0.033549 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.020331 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_40_Diffuse.tga
+  artifactKey: Guid(7291e3e19509b2e46a6f452a104360f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_40_Diffuse.tga using Guid(7291e3e19509b2e46a6f452a104360f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f8c3934231e10ced197abfaed3dc729') in 0.031177 seconds 
+  Import took 0.034435 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.017403 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_47_Diffuse.tga
+  artifactKey: Guid(9bf247a9660727e49b6f8ed46e6e2bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_47_Diffuse.tga using Guid(9bf247a9660727e49b6f8ed46e6e2bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0381f7dcb8cb4c16154aaecc3bc28693') in 0.030142 seconds 
+  Import took 0.033367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.083290 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/_LineStripShader.cginc
+  artifactKey: Guid(41c90c70f9188b44992f35519a5837c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/_LineStripShader.cginc using Guid(41c90c70f9188b44992f35519a5837c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d2cb044fd0526eeb3170202104d846') in 0.006982 seconds 
+  Import took 0.010242 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014982 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_16_Specular.tga
+  artifactKey: Guid(b4745deb35e7f4a42a3a9da87633930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_16_Specular.tga using Guid(b4745deb35e7f4a42a3a9da87633930e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8077aded37aa8f0e55af684d57165a1') in 0.029059 seconds 
+  Import took 0.032451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.288498 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_42_Diffuse.tga
+  artifactKey: Guid(0649bd1fe217dd24cb6ebbb0b5cb2d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_42_Diffuse.tga using Guid(0649bd1fe217dd24cb6ebbb0b5cb2d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703c901043fca10f3068538e196bf878') in 0.034075 seconds 
+  Import took 0.037440 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012825 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_50_Diffuse.tga
+  artifactKey: Guid(027c6d88bf0fec941baa9efe8941fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_50_Diffuse.tga using Guid(027c6d88bf0fec941baa9efe8941fe2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc972c14529333938f0b240a957cb2b') in 0.030039 seconds 
+  Import took 0.033432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011881 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_48_Diffuse.tga
+  artifactKey: Guid(485b71d54b858e246a86b7c8713d8476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_48_Diffuse.tga using Guid(485b71d54b858e246a86b7c8713d8476) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c829baa8891e9425a51db807e15c417') in 0.029198 seconds 
+  Import took 0.032572 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040338 seconds.
+  path: Assets/Scenes/MainScene
+  artifactKey: Guid(12643ea34e0b7e44280b832dbe5db251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene using Guid(12643ea34e0b7e44280b832dbe5db251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7249f7243410db1214a295e686865b9d') in 0.006167 seconds 
+  Import took 0.009299 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.250113 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_24_Specular.tga
+  artifactKey: Guid(48be6ed832adba94999829854028da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_24_Specular.tga using Guid(48be6ed832adba94999829854028da95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65c5dea88a79c858e27e5b4abe7a00bd') in 0.041691 seconds 
+  Import took 0.046317 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012655 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_27_Diffuse.tga
+  artifactKey: Guid(455a6bfeed4785648b13816f37f358e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_27_Diffuse.tga using Guid(455a6bfeed4785648b13816f37f358e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32944e055b0d4822bf98094fa222209a') in 0.028918 seconds 
+  Import took 0.032258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011162 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-LightSaber.shader
+  artifactKey: Guid(8ca03c355c08f5047bdf5b6f9ed24e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-LightSaber.shader using Guid(8ca03c355c08f5047bdf5b6f9ed24e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e97cdf70c8c451b5b837262ecc5d3fe9') in 0.007181 seconds 
+  Import took 0.010857 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.132452 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_29_Specular.tga
+  artifactKey: Guid(e4302bec91d4bb647bc25b8b81f9a9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_29_Specular.tga using Guid(e4302bec91d4bb647bc25b8b81f9a9fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a4e82b610bd85cabf42afc94437d49d') in 0.030671 seconds 
+  Import took 0.034054 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.331700 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs
+  artifactKey: Guid(0884dceb0d4308c4eb8bc763c8f8deae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/Scripts/VolumetricLineBehavior.cs using Guid(0884dceb0d4308c4eb8bc763c8f8deae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a51c7b1c3f74f61ad1dc7c703f0b0e7') in 0.007014 seconds 
+  Import took 0.010447 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.230393 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_48_Specular.tga
+  artifactKey: Guid(e9bce6c95f36f1e4ea73c08b2a6165e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_48_Specular.tga using Guid(e9bce6c95f36f1e4ea73c08b2a6165e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d5aa7161e8aa730cf5bb60bc387ab10') in 0.038625 seconds 
+  Import took 0.041821 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147294 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs
+  artifactKey: Guid(21887c148ed9f8143a28d8e6c7efcbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/Scripts/VolumetricLineVertexData.cs using Guid(21887c148ed9f8143a28d8e6c7efcbd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd51ddb900ac4513b226caa4647ee6ec5') in 0.007437 seconds 
+  Import took 0.010716 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.131983 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_24_Normal.tga
+  artifactKey: Guid(33416e1c35bc9b148a8bf942e484c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_24_Normal.tga using Guid(33416e1c35bc9b148a8bf942e484c86e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70d85caf73521d34af223e27723227de') in 0.053901 seconds 
+  Import took 0.058337 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014726 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_26_Diffuse.tga
+  artifactKey: Guid(f82867d065cf7d141b29809854fc3e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_26_Diffuse.tga using Guid(f82867d065cf7d141b29809854fc3e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9630caf04377ff0a2d6631d177f533d8') in 0.029913 seconds 
+  Import took 0.033276 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034659 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_26_Normal.tga
+  artifactKey: Guid(a5a6e3521459fc94e9bd621c71bd96af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_26_Normal.tga using Guid(a5a6e3521459fc94e9bd621c71bd96af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33cffc9fec4497a39e42c8568bc6836d') in 0.048549 seconds 
+  Import took 0.054351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.040729 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_21_Normal.tga
+  artifactKey: Guid(e467b527fd3204a4292b9afadb018f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_21_Normal.tga using Guid(e467b527fd3204a4292b9afadb018f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85992988cfb139defec8097ebe197dc6') in 0.029957 seconds 
+  Import took 0.033220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010991 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_37_Diffuse.tga
+  artifactKey: Guid(464a455c600e8a045bf4b7a3175e0c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_37_Diffuse.tga using Guid(464a455c600e8a045bf4b7a3175e0c73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311879baebe7e0c384c5d5160a617a0a') in 0.027981 seconds 
+  Import took 0.031176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029529 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_26_Specular.tga
+  artifactKey: Guid(7a69b4259fea3f04fae8f266184826fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_26_Specular.tga using Guid(7a69b4259fea3f04fae8f266184826fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5e5796e2ed3b429d6ab4208e9616826') in 0.027869 seconds 
+  Import took 0.031089 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.289768 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-TextureAlphaBlended.shader
+  artifactKey: Guid(9b878c8c67298134b8206d18302e862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-TextureAlphaBlended.shader using Guid(9b878c8c67298134b8206d18302e862e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4eb10977f0c4b369100d5e4cfaa6d88') in 0.006517 seconds 
+  Import took 0.009879 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009692 seconds.
+  path: Assets/Scenes/MainScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8c2a11f2d3a61f2fb3d73ce098b4c76') in 0.006625 seconds 
+  Import took 0.010177 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022385 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_43_Specular.tga
+  artifactKey: Guid(15f2fefe38afc5348b47b4a2e6988bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_43_Specular.tga using Guid(15f2fefe38afc5348b47b4a2e6988bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebdec2d5f108ae4203673a0b075209fc') in 0.046883 seconds 
+  Import took 0.051520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018968 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_47_Specular.tga
+  artifactKey: Guid(00519038c9eba4c42b26e4168e27a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_47_Specular.tga using Guid(00519038c9eba4c42b26e4168e27a50f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1404837ed63b78a455be887bf62efd67') in 0.329290 seconds 
+  Import took 0.333428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045475 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_35_Specular.tga
+  artifactKey: Guid(d5f16c147d28ac84ea736b0c41958bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_35_Specular.tga using Guid(d5f16c147d28ac84ea736b0c41958bfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd1f609a73ff51abd3420358aaa2e3d') in 0.705479 seconds 
+  Import took 0.709799 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.024697 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs
+  artifactKey: Guid(43ec8a26d513771429bb2850461a3223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CreateSinShapedLineStrip.cs using Guid(43ec8a26d513771429bb2850461a3223) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38dc2608e2fe05f2b10ffecf5b883a44') in 0.006585 seconds 
+  Import took 0.009972 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.141809 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_16_Normal.tga
+  artifactKey: Guid(ecfcad7bf65ab804786622b7d74a2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_16_Normal.tga using Guid(ecfcad7bf65ab804786622b7d74a2f95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3592a0bf8d225141844ccf9c2fb7f803') in 0.040308 seconds 
+  Import took 0.045666 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.328150 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-TextureAdditive.shader
+  artifactKey: Guid(c7536b6df21e0894ca085bed81021836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/SingleLine-TextureAdditive.shader using Guid(c7536b6df21e0894ca085bed81021836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dd2080d458d43756ed0ecfa1a30f22') in 0.010143 seconds 
+  Import took 0.013761 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046485 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures
+  artifactKey: Guid(1e920fb1b107c1d4d9e5864c1a3e5055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures using Guid(1e920fb1b107c1d4d9e5864c1a3e5055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd49e26fca81d8432937d86ee221f540') in 0.002260 seconds 
+  Import took 0.005377 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009961 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_36_Specular.tga
+  artifactKey: Guid(f0227a91a3a34cf459bf745bb80cc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_36_Specular.tga using Guid(f0227a91a3a34cf459bf745bb80cc352) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da35941b7a32651754916fee5523f470') in 0.031175 seconds 
+  Import took 0.035173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415339 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-TextureAlphaBlended.shader
+  artifactKey: Guid(174173bcbfb7bff41ab736987776b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-TextureAlphaBlended.shader using Guid(174173bcbfb7bff41ab736987776b31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0b832511258c31b87a8c804887c7dfb') in 0.009131 seconds 
+  Import took 0.014261 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081592 seconds.
+  path: Assets/Scifi Assets/DL_Fantasy_RPG_Effects/sceneSettings.lighting
+  artifactKey: Guid(9c1c50456d6496247a04fe0bd73c69a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/DL_Fantasy_RPG_Effects/sceneSettings.lighting using Guid(9c1c50456d6496247a04fe0bd73c69a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'c698ee7e3f6548931686a90b338a606e') in 0.013821 seconds 
+  Import took 0.020147 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.274776 seconds.
+  path: Assets/Scenes/MainScene/ReflectionProbe-0.exr
+  artifactKey: Guid(ed79dda353f9cfc479c5f65a6f406b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/ReflectionProbe-0.exr using Guid(ed79dda353f9cfc479c5f65a6f406b6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6144bab6742a9722882885fb9f5f29fe') in 0.148887 seconds 
+  Import took 0.153157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.368215 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd
+  artifactKey: Guid(d0f02542b58827040a53f41483d556fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTextures/Steam_A_from_Unity_sample_project_AngryBots.psd using Guid(d0f02542b58827040a53f41483d556fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e8aaf58846b8e50940c6b1854ba27aa') in 0.308490 seconds 
+  Import took 0.314090 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.408917 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_38_Normal.tga
+  artifactKey: Guid(ff112d4d8095778409870405738d14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_38_Normal.tga using Guid(ff112d4d8095778409870405738d14f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9e334319b7693c185e2dbc344942f41') in 0.032624 seconds 
+  Import took 0.035870 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.317653 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_46_Normal.tga
+  artifactKey: Guid(e82e324b05afa3145b3f8ea754cc9cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_46_Normal.tga using Guid(e82e324b05afa3145b3f8ea754cc9cf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2defdf69a7868c600b24ae882df7ed52') in 0.029833 seconds 
+  Import took 0.033112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.097396 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_20_Specular.tga
+  artifactKey: Guid(bb501974d576ad945a07b28c3af045a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_20_Specular.tga using Guid(bb501974d576ad945a07b28c3af045a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '644d9be24c116f667e8eeaf076263775') in 0.030322 seconds 
+  Import took 0.086339 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.139629 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_18_Diffuse.tga
+  artifactKey: Guid(593ec409626273b4fafae09440a512d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_18_Diffuse.tga using Guid(593ec409626273b4fafae09440a512d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb380a4ccea55abe9e5a3683293297d9') in 0.030501 seconds 
+  Import took 0.034219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016088 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_28_Specular.tga
+  artifactKey: Guid(d86c80ae03435124fbf96fd0e9882016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_28_Specular.tga using Guid(d86c80ae03435124fbf96fd0e9882016) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbfa9173ffdaaadd9e0bc3f81b71b90a') in 0.029541 seconds 
+  Import took 0.032731 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.243297 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_30_Specular.tga
+  artifactKey: Guid(a9d5254462ec08c49bfbc9da579a1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_30_Specular.tga using Guid(a9d5254462ec08c49bfbc9da579a1f13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '216e436678aae42b210f5cbae6781d37') in 0.029235 seconds 
+  Import took 0.032739 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008580 seconds.
+  path: Assets/Scifi Assets/DL_Fantasy_RPG_Effects/texture/wind01.png
+  artifactKey: Guid(5a60899eb15f1114f9286e7e89a37932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/DL_Fantasy_RPG_Effects/texture/wind01.png using Guid(5a60899eb15f1114f9286e7e89a37932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e91b1b4e016bd5f325ed34e3399731a') in 0.031621 seconds 
+  Import took 0.035109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.179615 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga
+  artifactKey: Guid(0641f934232d8914ea2e2479cf4c0939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_40_Normal.tga using Guid(0641f934232d8914ea2e2479cf4c0939) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667861eb788c2c29fda84b131c8ae26e') in 0.029202 seconds 
+  Import took 0.032477 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.028157 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_23_Specular.tga
+  artifactKey: Guid(ca94c84d71c5f1444a24b94522d26e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_23_Specular.tga using Guid(ca94c84d71c5f1444a24b94522d26e9e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c41320c4031b3dcb0209ee3ca2db33fd') in 0.028934 seconds 
+  Import took 0.032208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.191930 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_31_Specular.tga
+  artifactKey: Guid(384e3a81535804f4b8ba6a0c1a288812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_31_Specular.tga using Guid(384e3a81535804f4b8ba6a0c1a288812) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb9b8f5654b9d7423d91506191842c2') in 0.032297 seconds 
+  Import took 0.036834 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013902 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_14_Normal.tga
+  artifactKey: Guid(d89e0d9211450ba46a26692c471bc88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_14_Normal.tga using Guid(d89e0d9211450ba46a26692c471bc88b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a830dcadcdf253fb64829ce01c767adf') in 0.031626 seconds 
+  Import took 0.035734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012946 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_30_Diffuse.tga
+  artifactKey: Guid(6612a81492f80c143801fcb059874cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_30_Diffuse.tga using Guid(6612a81492f80c143801fcb059874cea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd35eecd3d54901a9ad6bee66f7d52f6f') in 0.031297 seconds 
+  Import took 0.034650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.341023 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_19_Normal.tga
+  artifactKey: Guid(22687ef8e4927174589eb342f9d40cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_19_Normal.tga using Guid(22687ef8e4927174589eb342f9d40cd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '652f3ab944f608855a69132c1422c529') in 0.034323 seconds 
+  Import took 0.039155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.332823 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_39_Normal.tga
+  artifactKey: Guid(5a896725211d8bb4396e6539cb2ab3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_39_Normal.tga using Guid(5a896725211d8bb4396e6539cb2ab3b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '853125bc2723a4587a111fdee44f3c76') in 0.034183 seconds 
+  Import took 0.039094 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.443001 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_31_Normal.tga
+  artifactKey: Guid(79a144edbc721134e96d8c6b78287024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_31_Normal.tga using Guid(79a144edbc721134e96d8c6b78287024) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42c6bdedd44cf082a867bf120379371') in 0.031890 seconds 
+  Import took 0.035283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.119622 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_37_Specular.tga
+  artifactKey: Guid(0182e461824e4f54798ad0a99fdd7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_37_Specular.tga using Guid(0182e461824e4f54798ad0a99fdd7f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3af04a1cb8d6205ba845bf1fa7b88b8c') in 0.027437 seconds 
+  Import took 0.030872 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.209194 seconds.
+  path: Assets/Scifi Assets/DL_Fantasy_RPG_Effects/material
+  artifactKey: Guid(23603da7c3cea4347b46850b29b32dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/DL_Fantasy_RPG_Effects/material using Guid(23603da7c3cea4347b46850b29b32dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbf54deacbaf027ad89c31e08ec1e8f2') in 0.006307 seconds 
+  Import took 0.009516 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010330 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_20_Normal.tga
+  artifactKey: Guid(0bbf8e810623a7147b33e57b1b821b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_20_Normal.tga using Guid(0bbf8e810623a7147b33e57b1b821b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23c8485529762f746c68cc41a38f7eae') in 0.032712 seconds 
+  Import took 0.065278 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016319 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_17_Diffuse.tga
+  artifactKey: Guid(f6061b0c042df0b40978226fa22c5697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_17_Diffuse.tga using Guid(f6061b0c042df0b40978226fa22c5697) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddd6d1bfe3c2addb8a94b2a3a77e6400') in 0.028942 seconds 
+  Import took 0.032151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010406 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset
+  artifactKey: Guid(b8c692866a7f00f45b6dd836acf1bd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleTerrain/ExampleLaserCannonTerrain.asset using Guid(b8c692866a7f00f45b6dd836acf1bd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bbf82c2cd1ff4d8dc8dbde660c952d') in 0.285441 seconds 
+  Import took 0.288798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.095679 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_22_Diffuse.tga
+  artifactKey: Guid(445cb47871abfa0459e87e16500c10c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_22_Diffuse.tga using Guid(445cb47871abfa0459e87e16500c10c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ee3860ad2684a4e55ab9aa1921f25c') in 0.029165 seconds 
+  Import took 0.032389 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081230 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_32_Diffuse.tga
+  artifactKey: Guid(ca4ea6523c57b804492b6ea25083411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_32_Diffuse.tga using Guid(ca4ea6523c57b804492b6ea25083411b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd924f8313d233b94c69d0a44118f1b00') in 0.029153 seconds 
+  Import took 0.032573 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062407 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_25_Diffuse.tga
+  artifactKey: Guid(cff6b5a878a08e34f9669b5d411e994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_25_Diffuse.tga using Guid(cff6b5a878a08e34f9669b5d411e994d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e1182c1ded1972ca77704d7e9d7d146') in 0.030146 seconds 
+  Import took 0.033419 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.114205 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_41_Diffuse.tga
+  artifactKey: Guid(a0b96b9edbb3a904a8d6b544881f4b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_41_Diffuse.tga using Guid(a0b96b9edbb3a904a8d6b544881f4b0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '146a3db93e0d516a50ac1b98c093cd87') in 0.053929 seconds 
+  Import took 0.058287 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.259766 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_45_Specular.tga
+  artifactKey: Guid(2148d522e737aa7428d1d5d792651d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_45_Specular.tga using Guid(2148d522e737aa7428d1d5d792651d6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c7f28dba5671edfb84c3a98dd902d56') in 0.031123 seconds 
+  Import took 0.034476 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010496 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_14_Diffuse.tga
+  artifactKey: Guid(02a6951378ca77e4fbd84055b67af8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_14_Diffuse.tga using Guid(02a6951378ca77e4fbd84055b67af8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '934112280ae6a17dcfa551befabd7123') in 0.104592 seconds 
+  Import took 0.109215 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.337530 seconds.
+  path: Assets/Scifi Assets/SF_Fighter/Meshes/SF_Free-Fighter.FBX
+  artifactKey: Guid(f24986c5005449f4e96046f5edb103a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/SF_Fighter/Meshes/SF_Free-Fighter.FBX using Guid(f24986c5005449f4e96046f5edb103a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9f651413b9cfb7141364f2d501bf3b6') in 0.289890 seconds 
+  Import took 0.293254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.193727 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_27_Normal.tga
+  artifactKey: Guid(32f6012cc48ae0b4899021bb4a03a8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_27_Normal.tga using Guid(32f6012cc48ae0b4899021bb4a03a8da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bd870818d090008551c170471518c75') in 0.031388 seconds 
+  Import took 0.034653 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.822596 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_48_Normal.tga
+  artifactKey: Guid(965f578db66371a418b1bd28186fa392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_48_Normal.tga using Guid(965f578db66371a418b1bd28186fa392) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541f76ce07de3e260709bab66bd2f7c2') in 0.032088 seconds 
+  Import took 0.035655 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.112713 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_22_Normal.tga
+  artifactKey: Guid(7bf14af4662458044a096632566cf50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_22_Normal.tga using Guid(7bf14af4662458044a096632566cf50a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0c026f3e35a88e746e2553d0dc44eb') in 0.038423 seconds 
+  Import took 0.041964 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.149917 seconds.
+  path: Assets/Scifi Assets/Free LowPoly SciFi Pack/Scenes/DemoSceneSettings.lighting
+  artifactKey: Guid(7721e08960dda2040855ef9ef74dbc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Free LowPoly SciFi Pack/Scenes/DemoSceneSettings.lighting using Guid(7721e08960dda2040855ef9ef74dbc4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'f067c0dc3c49ca2be99c02cda8cd4a26') in 0.007085 seconds 
+  Import took 0.114577 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.021652 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_25_Specular.tga
+  artifactKey: Guid(bd234f8d2756b7848b2423a3f99231cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_25_Specular.tga using Guid(bd234f8d2756b7848b2423a3f99231cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8379585579ebf00846ef9fbfe22c6d10') in 0.036081 seconds 
+  Import took 0.039363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.315237 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_44_Specular.tga
+  artifactKey: Guid(54fc8c0a3aa3da9479ee01e94328e9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_44_Specular.tga using Guid(54fc8c0a3aa3da9479ee01e94328e9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18f71078e3c84a2a2309f561b42eb9ba') in 0.048153 seconds 
+  Import took 0.052915 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.111610 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_18_Specular.tga
+  artifactKey: Guid(7ff2b9825ec83cf4e9225113a0b09455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_18_Specular.tga using Guid(7ff2b9825ec83cf4e9225113a0b09455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c67ec10b364e559964c657e4073c26') in 0.032324 seconds 
+  Import took 0.037441 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011478 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_50_Normal.tga
+  artifactKey: Guid(42cf91d26aace2b4488fe75a194ee567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_50_Normal.tga using Guid(42cf91d26aace2b4488fe75a194ee567) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de03016d791d8a976f8ee9654d39206') in 0.031331 seconds 
+  Import took 0.035372 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.351589 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_22_Specular.tga
+  artifactKey: Guid(15e885e03e6987540a13c5f25e1e7f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_22_Specular.tga using Guid(15e885e03e6987540a13c5f25e1e7f4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51568f86680e9f9bd283d25a45232b7d') in 0.035500 seconds 
+  Import took 0.042160 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.098488 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-TextureAdditive.shader
+  artifactKey: Guid(e833a1d82dd8ca1498c865fb06e09e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/Shaders/LineStrip-TextureAdditive.shader using Guid(e833a1d82dd8ca1498c865fb06e09e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cc91b27c9751c604b2a02631577540a') in 0.007387 seconds 
+  Import took 0.010685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.147157 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_41_Specular.tga
+  artifactKey: Guid(05f26edba3a3bc34d938d1de68119378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_41_Specular.tga using Guid(05f26edba3a3bc34d938d1de68119378) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd63281b615eec6043d44b2f4006fbcaa') in 0.031200 seconds 
+  Import took 0.120424 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.044032 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CannonBehavior.cs
+  artifactKey: Guid(6ea36ef7a00788340aa4961f12313cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/CannonBehavior.cs using Guid(6ea36ef7a00788340aa4961f12313cec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd16f8e54834483a3caf63447e8260392') in 0.006584 seconds 
+  Import took 0.009995 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.250735 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_35_Normal.tga
+  artifactKey: Guid(47559ced24a29b9428ba59951a3b02bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_35_Normal.tga using Guid(47559ced24a29b9428ba59951a3b02bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abfb70ff47eed41f7c66a52c0310e5d') in 0.030918 seconds 
+  Import took 0.034107 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011283 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_15_Diffuse.tga
+  artifactKey: Guid(47f997fbf9cb3a840a27fef8a495a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_15_Diffuse.tga using Guid(47f997fbf9cb3a840a27fef8a495a398) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f56c8072c44c22b7e427f12e3ada11') in 0.032479 seconds 
+  Import took 0.035763 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014655 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_41_Normal.tga
+  artifactKey: Guid(d9dbacc028e656049949af84c56a4e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_41_Normal.tga using Guid(d9dbacc028e656049949af84c56a4e64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2966efd7aaefca7e0af92b7d4c2ec1c1') in 0.028162 seconds 
+  Import took 0.031428 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256868 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_36_Normal.tga
+  artifactKey: Guid(3badc406faf9e4e4f99f9aa4f996a88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_36_Normal.tga using Guid(3badc406faf9e4e4f99f9aa4f996a88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21a083e81202234af21021c65cd8a421') in 0.030517 seconds 
+  Import took 0.033816 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085044 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_33_Diffuse.tga
+  artifactKey: Guid(3616af53dd0659648b71cb468bf03d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_33_Diffuse.tga using Guid(3616af53dd0659648b71cb468bf03d44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1549d9dc5f3244a07e45d6c4a5912a') in 0.048331 seconds 
+  Import took 0.053747 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010128 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_19_Specular.tga
+  artifactKey: Guid(edad444768045b242afcceaa7d352ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_19_Specular.tga using Guid(edad444768045b242afcceaa7d352ffb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195f519076ede239e876d41f28f648f1') in 0.028995 seconds 
+  Import took 0.032485 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.085512 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga
+  artifactKey: Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_13_Diffuse.tga using Guid(33dc51d475a7a4146b3b5d4c45273177) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab84515f3c75a3b5e46538f762139fd9') in 0.034173 seconds 
+  Import took 0.038388 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010248 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_25_Normal.tga
+  artifactKey: Guid(18fcf7bf1b94dd3459a6ea26b304428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_25_Normal.tga using Guid(18fcf7bf1b94dd3459a6ea26b304428e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c23a8d2b0db3cbc22e9bea77889d3c0') in 0.029938 seconds 
+  Import took 0.033638 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.152976 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_44_Normal.tga
+  artifactKey: Guid(54704d4d7f76b2e468dd1ca8dc904528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_44_Normal.tga using Guid(54704d4d7f76b2e468dd1ca8dc904528) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b00e6412f970760a7faa5772da8f5d73') in 0.031289 seconds 
+  Import took 0.034865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.485554 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_18_Normal.tga
+  artifactKey: Guid(c902dc60be5856949909aacd8d22ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_18_Normal.tga using Guid(c902dc60be5856949909aacd8d22ccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b12994860e413c9aca45abc1cdfa10') in 0.033330 seconds 
+  Import took 0.039192 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.315049 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_32_Specular.tga
+  artifactKey: Guid(a56680fa333c9894ba111daea6d1c386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_32_Specular.tga using Guid(a56680fa333c9894ba111daea6d1c386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0fe565adc04fcc1679881303c91bad6') in 0.030155 seconds 
+  Import took 0.033420 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.078216 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_16_Emissive.tga
+  artifactKey: Guid(8f9391bcf3b56b4429b45da4c326e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_16_Emissive.tga using Guid(8f9391bcf3b56b4429b45da4c326e808) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60983e9cd8c52b4fd5ec2ce70f7898b8') in 0.030735 seconds 
+  Import took 0.034050 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.246090 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_45_Normal.tga
+  artifactKey: Guid(f9469f3b93a01a24c99b79f7d7ac025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_45_Normal.tga using Guid(f9469f3b93a01a24c99b79f7d7ac025d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcbb9cf47abc7fad4951e9725f787c6c') in 0.030544 seconds 
+  Import took 0.243738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.269332 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_13_Normal.tga
+  artifactKey: Guid(85f9003fe1dd73a42a65527724405180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_13_Normal.tga using Guid(85f9003fe1dd73a42a65527724405180) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cb76a96a76a5954c725c96f29b0eb62') in 0.030028 seconds 
+  Import took 0.033295 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015209 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_34_Specular.tga
+  artifactKey: Guid(fae9099faa12be6468a76d4bcb852bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_34_Specular.tga using Guid(fae9099faa12be6468a76d4bcb852bf7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52b2ca820ff43a2b367be2e1ca2a3efa') in 0.030129 seconds 
+  Import took 0.033357 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.068252 seconds.
+  path: Assets/Scifi Assets/DL_Fantasy_RPG_Effects/texture
+  artifactKey: Guid(49038638137475f47b8b27c5797545b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/DL_Fantasy_RPG_Effects/texture using Guid(49038638137475f47b8b27c5797545b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6111c0e09347bd9ce26085e5d4c7b3ec') in 0.011867 seconds 
+  Import took 0.015488 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.521890 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_49_Specular.tga
+  artifactKey: Guid(a7d7b7d31df755f4c866a76fa5d1e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_49_Specular.tga using Guid(a7d7b7d31df755f4c866a76fa5d1e33e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5902017d874f791ce7c9be2cb3a0839') in 0.030673 seconds 
+  Import took 0.033938 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.046954 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_29_Diffuse.tga
+  artifactKey: Guid(e8642de7dca4ee042b91319e75d59ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_29_Diffuse.tga using Guid(e8642de7dca4ee042b91319e75d59ce2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '460d5ecfd521fb66a108e49b2f90efd4') in 0.026531 seconds 
+  Import took 0.029826 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010416 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_34_Normal.tga
+  artifactKey: Guid(bb57d8b7e0dd55e4e9dbe2a31b82a842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_34_Normal.tga using Guid(bb57d8b7e0dd55e4e9dbe2a31b82a842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '434e6b39c7d70e0284fdc62a22d7c9b9') in 0.029046 seconds 
+  Import took 0.032529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.051796 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_17_Normal.tga
+  artifactKey: Guid(2fdef62fbe345cc4daad91030f54a2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_17_Normal.tga using Guid(2fdef62fbe345cc4daad91030f54a2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52ca200d748a545dcd3691aa09681e7d') in 0.032266 seconds 
+  Import took 0.035672 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.022418 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_38_Diffuse.tga
+  artifactKey: Guid(9a1b6d5ae0baac0468a752a11214c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_38_Diffuse.tga using Guid(9a1b6d5ae0baac0468a752a11214c0d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b15398c0c06d0fb9ea6c959e9a24f055') in 0.033064 seconds 
+  Import took 0.037556 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.015842 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/StaticLines.unity
+  artifactKey: Guid(272ba8d0ddc690a49b4f2ca2888387b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/StaticLines.unity using Guid(272ba8d0ddc690a49b4f2ca2888387b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd76b0a1bfb2fcf286dd685b8af5c5bd4') in 0.006736 seconds 
+  Import took 0.009949 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.034221 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_33_Specular.tga
+  artifactKey: Guid(2f8736d3b14d57248aa4deb116b93d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_33_Specular.tga using Guid(2f8736d3b14d57248aa4deb116b93d32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a89d9b29cb059318274f38d5814c8b4') in 0.032211 seconds 
+  Import took 0.035458 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.121013 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Demo/Sc_DEMO_YFMM_Preview.unity
+  artifactKey: Guid(7a0feaf00236a6a478aa15df6800e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Demo/Sc_DEMO_YFMM_Preview.unity using Guid(7a0feaf00236a6a478aa15df6800e5ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f7b42d3c52a2e9d0f395588d0857ca') in 0.007068 seconds 
+  Import took 0.010336 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010898 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_32_Normal.tga
+  artifactKey: Guid(2c1a4f21c19d4044eb1a16365b2ee5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_32_Normal.tga using Guid(2c1a4f21c19d4044eb1a16365b2ee5c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06aef3e5380d7d2db45007ec954c89eb') in 0.032629 seconds 
+  Import took 0.036219 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009069 seconds.
+  path: Assets/Scifi Assets/SF_Fighter/Meshes
+  artifactKey: Guid(3e86f6ee335ac364380e42fc33bcb3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/SF_Fighter/Meshes using Guid(3e86f6ee335ac364380e42fc33bcb3fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48d1c52374e615f9688e980c5f32b40d') in 0.008525 seconds 
+  Import took 0.012676 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009995 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/StaticLinesSettings.lighting
+  artifactKey: Guid(8e8ee5b939532694790cb4a0ec04f8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/StaticLinesSettings.lighting using Guid(8e8ee5b939532694790cb4a0ec04f8f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '96f1f3467ddaacb820cd89d959a8b981') in 0.008570 seconds 
+  Import took 0.012016 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.360816 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_15_Specular.tga
+  artifactKey: Guid(ac2f27c4fb9eb8640bf13f478c6b89ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_15_Specular.tga using Guid(ac2f27c4fb9eb8640bf13f478c6b89ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9561b0b9c70d2a0b473cff028056ec4c') in 0.031701 seconds 
+  Import took 0.035058 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.194744 seconds.
+  path: Assets/Scenes/MainScene/LightingData.asset
+  artifactKey: Guid(4b6632818fa8a514e84e10e1b1e6f993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/MainScene/LightingData.asset using Guid(4b6632818fa8a514e84e10e1b1e6f993) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db2a521602bdf06be4abe04f61f7658') in 0.015244 seconds 
+  Import took 0.019284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.081603 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs
+  artifactKey: Guid(c9efc33befc68374c889396a73a00a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/Scripts/VolumetricLineStripBehavior.cs using Guid(c9efc33befc68374c889396a73a00a5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad3139fa9b57b6d8715c8440eb735996') in 0.006905 seconds 
+  Import took 0.010390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076270 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/LineGenerationScriptsSettings.lighting
+  artifactKey: Guid(9875daaad8e4f8448b5e9210c8baefb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/LineGenerationScriptsSettings.lighting using Guid(9875daaad8e4f8448b5e9210c8baefb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: '7b329544403ea4847cdc366e600ec604') in 0.011040 seconds 
+  Import took 0.015896 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.291453 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_33_Normal.tga
+  artifactKey: Guid(6efa5bd4c9b0d8a4c98eb99feafec635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_33_Normal.tga using Guid(6efa5bd4c9b0d8a4c98eb99feafec635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70117db4d35ac59b788f292074ed581f') in 0.029166 seconds 
+  Import took 0.032642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.062221 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_46_Diffuse.tga
+  artifactKey: Guid(04b2bfb7759f4854fb05998f97653d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_46_Diffuse.tga using Guid(04b2bfb7759f4854fb05998f97653d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f11402f660b7d059906db8e21a0d22') in 0.030467 seconds 
+  Import took 0.034535 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011552 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_49_Normal.tga
+  artifactKey: Guid(886470e3c92595d489978d2be0311d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_49_Normal.tga using Guid(886470e3c92595d489978d2be0311d41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f39c65ada0df1e84007df6596ff4c65') in 0.027759 seconds 
+  Import took 0.031048 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005551 seconds.
+  path: Assets/Scifi Assets/SF_Fighter/Meshes/Materials
+  artifactKey: Guid(dfc4fe6b231fe1e4aaf6e1131bb215c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/SF_Fighter/Meshes/Materials using Guid(dfc4fe6b231fe1e4aaf6e1131bb215c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c76e7f854e738fee5ead8c8afcc27ba') in 0.028393 seconds 
+  Import took 0.031690 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.072073 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_47_Normal.tga
+  artifactKey: Guid(28cd040c14026b94aba3d3d6ec7addfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_47_Normal.tga using Guid(28cd040c14026b94aba3d3d6ec7addfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd099d20e94eeb47b2a9339afe6038b21') in 0.038287 seconds 
+  Import took 0.041561 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.277700 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/VolumetricMultiLineBehavior.cs
+  artifactKey: Guid(337d0041a7dd7564e81c5f906c45230f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/BuiltInRenderPipeline/ExampleScenes/ExampleScripts/VolumetricMultiLineBehavior.cs using Guid(337d0041a7dd7564e81c5f906c45230f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '121b453d66d92ab06cd7a468d7ccdfbb') in 0.008077 seconds 
+  Import took 0.012249 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.088472 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_23_Normal.tga
+  artifactKey: Guid(1fb10c5603038a24abb2ccad745574c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_23_Normal.tga using Guid(1fb10c5603038a24abb2ccad745574c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad82d21994a9b1922e07213a1855de84') in 0.036059 seconds 
+  Import took 0.039956 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.580000 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_23_Diffuse.tga
+  artifactKey: Guid(8413ed1331ead2d45ade40523232bc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_23_Diffuse.tga using Guid(8413ed1331ead2d45ade40523232bc0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca0f89ca1f4abfaa19b1a6b59bd1dcb') in 0.032133 seconds 
+  Import took 0.036423 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009972 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_44_Diffuse.tga
+  artifactKey: Guid(f2ad0c737db19b242a7ac4ec9dbc0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Materials/Textures/T_44_Diffuse.tga using Guid(f2ad0c737db19b242a7ac4ec9dbc0a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ae2dad4a61332380de3c010be71236c') in 0.029900 seconds 
+  Import took 0.033992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010141 seconds.
+  path: Assets/Scifi Assets/VolumetricLines/Volumetric Lines Documentation.pdf
+  artifactKey: Guid(244014588634ac349b1aae7c0ce28859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/VolumetricLines/Volumetric Lines Documentation.pdf using Guid(244014588634ac349b1aae7c0ce28859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9241fde085ee2d83705831c6b79f60d1') in 0.007319 seconds 
+  Import took 0.010657 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007574 seconds.
+  path: Assets/Scifi Assets/SF_Fighter/SF_Fighter.unity
+  artifactKey: Guid(d43ec1eaeefa7344fa87232dc6eb1dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/SF_Fighter/SF_Fighter.unity using Guid(d43ec1eaeefa7344fa87232dc6eb1dab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727552fa699951fa4a6719870f6e7db3') in 0.006917 seconds 
+  Import took 0.010084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.080045 seconds.
+  path: Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Demo/Sc_DEMO_YFMM_PreviewSettings.lighting
+  artifactKey: Guid(3c1161bef6d7dbb46a1fcbc893dcd155) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scifi Assets/Imported Textures/YughuesFreeMetalMaterials/Demo/Sc_DEMO_YFMM_PreviewSettings.lighting using Guid(3c1161bef6d7dbb46a1fcbc893dcd155) Importer(815301076,1909f56bfc062723c751e8b465ee728b) LightingSettings: switching bake backend from 1 to 0.
+ -> (artifact id: 'de47f5c04d901f58cc8069265ca059c7') in 0.007514 seconds 
+  Import took 0.010840 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

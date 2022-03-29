@@ -10,14 +10,15 @@ TagManager:
   - Hole
   - Portal
   - Bullet
+  - Goal
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - TurretArea
   - Water
   - UI
-  - 
+  - Bullet
   - 
   - 
   - 
